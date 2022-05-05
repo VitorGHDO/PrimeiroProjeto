@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&family=Goblin+One&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(72.12deg, #F5D6C2 6.49%, #F1796E 96.16%);
+}
+
+.cabecalho {
+    padding: 8px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.cabecalho-logo {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.cabecalho-titulo {
+    font-family: 'Goblin One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #F8F5F3;
+}
+
+.junto {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-conteudo {
+    font-family: 'Glory', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 39px;
+    color: #F4DFD1;
+
+    display: flex;
+    gap: 100px;
+    width: 290px;
+    justify-content: space-between;
+}
+
+.principal {
+    border-top: 3px solid #F5D6C2;
+    border-bottom: 3px solid #F5d6C2;
+}
+
+.principal-make{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+.principal-conteudo{
+    font-family: 'Sarala', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 52px;
+    color: #FFFFFF;
+
+    padding-right: 80px;
+}
+
+.principal-imagem{
+    border-radius: 4%;
+    margin-right: 250px;
+}
+
+.principal-make2{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.principal-conteudo2{
+    font-family: 'Sarala', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 52px;
+    color: #FFFFFF;
+
+    padding-left: 80px;
+}
+
+.principal-imagem2{
+    border-radius: 4%;
+    margin-left: 250px;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-texto{
+    font-family: 'Glory', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: #F346C3;
+}
+
+a {
+    color: #F4DFD1;
+}
+
+.cabecalho-conteudo a:hover {
+    font-size: 38px;
+    text-shadow: rgb(150, 149, 149) 0.1em 0.1em 0.2em;
+}
+
+.rodape a:hover {
+    font-size: 33px;
+}
